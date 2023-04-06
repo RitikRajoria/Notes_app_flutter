@@ -24,7 +24,7 @@ class Task extends Equatable {
   }) {
     return Task(
       title: title ?? this.title,
-      id: title ?? this.id,
+      id: id ?? this.id,
       isDone: isDone ?? this.isDone,
       isDeleted: isDeleted ?? this.isDeleted,
     );
