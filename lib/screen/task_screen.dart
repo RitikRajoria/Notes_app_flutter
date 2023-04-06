@@ -47,7 +47,7 @@ class _TasksScreenState extends State<TasksScreen> {
               Center(
                 child: Chip(
                   label: Text(
-                    'Tasks:',
+                    '${state.allTasks.length} Tasks',
                   ),
                 ),
               ),
