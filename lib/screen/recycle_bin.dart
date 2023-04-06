@@ -4,6 +4,7 @@ import 'package:notes_app/widgets/tasks_list.dart';
 
 class RecycleBin extends StatelessWidget {
   const RecycleBin({super.key});
+  static const id = 'recycle_bin';
 
   @override
   Widget build(BuildContext context) {
