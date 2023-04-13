@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:notes_app/bloc/bloc_exports.dart';
 import 'package:notes_app/screen/recycle_bin.dart';
 import 'package:notes_app/screen/tabs_screen.dart';
-import 'package:notes_app/screen/task_screen.dart';
+import 'package:notes_app/screen/pending_screen.dart';
 
 class MyDrawer extends StatelessWidget {
   MyDrawer({Key? key}) : super(key: key);

@@ -1,19 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:notes_app/bloc/bloc_exports.dart';
-import 'package:notes_app/screen/add_task_screen.dart';
-import 'package:notes_app/screen/my_drawer.dart';
-
 import '../models/task.dart';
 import '../widgets/tasks_list.dart';
 
-class TasksScreen extends StatefulWidget {
-  const TasksScreen({Key? key}) : super(key: key);
-  static const id = 'tasks_screen';
-  @override
-  State<TasksScreen> createState() => _TasksScreenState();
-}
+class favoriteTasks extends StatelessWidget {
+  const favoriteTasks({Key? key}) : super(key: key);
 
-class _TasksScreenState extends State<TasksScreen> {
+  static const id = 'tasks_screen';
+
   @override
   Widget build(BuildContext context) {
     return BlocBuilder<TasksBloc, TasksState>(

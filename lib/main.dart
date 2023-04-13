@@ -6,7 +6,7 @@ import 'package:path_provider/path_provider.dart';
 
 import 'package:notes_app/bloc/bloc_exports.dart';
 
-import 'screen/task_screen.dart';
+import 'screen/pending_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -44,7 +44,7 @@ class MyApp extends StatelessWidget {
             theme: state.switchValue
                 ? AppThemes.appThemeData[AppTheme.darkTheme]
                 : AppThemes.appThemeData[AppTheme.lightTheme],
-            home: const TabsScreen(),
+            home: TabsScreen(),
             onGenerateRoute: appRouter.onGenerateRoute,
           );
         },
