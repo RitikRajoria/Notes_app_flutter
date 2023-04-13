@@ -43,7 +43,7 @@ class MyApp extends StatelessWidget {
             theme: state.switchValue
                 ? AppThemes.appThemeData[AppTheme.darkTheme]
                 : AppThemes.appThemeData[AppTheme.lightTheme],
-            home: TasksScreen(),
+            home: const TasksScreen(),
             onGenerateRoute: appRouter.onGenerateRoute,
           );
         },
